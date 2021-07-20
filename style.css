@@ -90,19 +90,21 @@
   flex-wrap: nowrap;
   justify-content: center;
   background-image: url(img/calacatta-marble-with-golden-veins-texture-background_13756-56.jpg);
-  background-size: cover;
+padding: 0 2vmax;
+background-size: cover;
 }
-.hero1 {
+
+.hero1 { 
   max-width: 50%;
-  margin-top: 13vmax;
-  padding: 10px 10px;
+  padding: 5vmax 2vmax;
   font-family: "Tourney", cursive;
+  margin: 0 5%;
 }
 
 .hero2 {
-  display: flex;
-  width: 50vmax;
-  height: 500px;
+  padding: 210px 350px;
+  background-image: url(img/hero1.svg);
+  background-size: contain;
 }
 
 .title {
@@ -222,6 +224,7 @@ margin-left: 20%;
     padding: 13vmax 15vmax;
     background-image: url(img/shop.svg);
     background-size: cover;
+    margin
   }
 
   .kotak {
@@ -320,6 +323,7 @@ margin-left: 20%;
   margin-top: 5%;
   font-family: "PT Sans", sans-serif;
   background-size: cover;
+  position: fixed;
 }
 
 .reason-text ul {
@@ -425,7 +429,7 @@ padding: 20px 0;
   }
 
 
-  .headline button {
+  .footer-0 {
     background-color: #f7f3ee;
     border: none;
     color: black;
@@ -507,7 +511,7 @@ transition: transform .5s;
 }
 
 .footer {
-  padding: 40px 13%;
+  padding: 40px 15%;
   background-color: black;
 }
 
@@ -597,4 +601,241 @@ cursor: pointer;
 .royal {
   color: white;
   font-family: "PT Sans", sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .hero2 {
+    padding: 13vmax 22vmax;
+  }
+  .title {
+    flex-wrap: wrap;
+  }
+
+  .all-section {
+    padding: 0;
+  }
+
+  .section-1 {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-1 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }  
+
+  .shop-image {
+    margin: 0;
+  }
+  .section-2 {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-2 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }  
+
+  .brand-image {
+    margin: 0;
+  }
+  .section-3 {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-3 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .transaksi-image {
+    margin: 0;
+  }
+  .section-4 {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-4 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }  
+
+  .delivered-image {
+    margin: 0;
+  }
+
+
+  .reason {
+    padding: 5vmax 5vmax;
+  }
+
+  .testimoni {
+    flex-wrap: wrap;
+  }
+
+  .footer-footer {
+    flex-wrap: wrap;
+  }
+
+  .ending .headline {
+    padding: 0 5vmax;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .cta-3 .head {
+    display: none;
+  }
+
+  .footercta-2 {
+justify-content: space-around;
+  }
+
+  .ending {
+    text-align: center;
+  }
+
+  .footer-0 {
+    text-align: center;
+  }
+
+  .cta-3 h2 {
+    display: none;
+  }
+
+  .space-1 {
+padding: 0 1vmax;
+  }
+  .space-2 {
+    display: none;
+  }
+  .space-3 {
+    display: none;
+  }
+
+  .footer-footer {
+    justify-content: center;
+  }
+
+  .ic {
+    margin-top: 10px;
+    padding: 0 5vmax;
+  }
+
+  .icon-tokopedia {
+    padding: 17.5px 17.5px;
+  }
+  .icon-shopee {
+    padding: 10px 17.5px;
+
+  }
+  .icon-facebook {
+    padding: 10px 17.5px;
+
+  }
+  .icon-instagram {
+    padding: 10px 17.5px;
+  }
+  .icon-whatsapp {
+    padding: 10px 17.5px;
+  }
+
+  .keterangan {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+#animation {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#flip {
+  height: 48px;
+  overflow: hidden;
+}
+
+.first-cta h1 {
+ font-size: 20px;
+}
+
+.first-cta .logo {
+  padding: 3vmax 12vmax;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.cta-1 button {
+  margin-top: 10px;
+  padding: 2vmax 2vmax;
+  font-size: 14px;
+}
+
+
+.cta-2 .space {
+padding: 1vmax 2.5vmax;
+}
+
+.cta-2 button {
+  padding: 4vmax 8vmax;
+}
+
+.all-section h1 {
+font-size: 15px;
+padding: 10px 20px;
+}
+
+
+.testimonial h1 {
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.testimoni-tokopedia {
+  padding: 80px 150px;
+  margin: 0;
+}
+.testimoni-shopee {
+  padding: 80px 150px;
+  margin: 0;
+}
+.testimoni-google {
+  padding: 80px 150px;
+  margin: 0;
+}
+.testimoni-ig {
+  padding: 80px 150px;
+  margin: 0;
+}
+
 }
