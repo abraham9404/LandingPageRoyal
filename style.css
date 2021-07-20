@@ -169,7 +169,7 @@ margin-left: 20%;
   margin-top: 1%;
 }
 
-.belanja-2 button {
+.belanja-2 a {
   background-color: #f7f3ee;
   border: none;
   color: black;
@@ -184,7 +184,7 @@ margin-left: 20%;
   border-radius: 10px;
 }
 
-.belanja-3 button {
+.belanja-3 a {
   background-color: #f7f3ee;
   border: none;
   color: black;
